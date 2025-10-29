@@ -1,4 +1,4 @@
-/* ===== RESET ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== NAVBAR ===== */
+
 nav {
   position: sticky;
   top: 0;
@@ -48,7 +48,6 @@ nav ul li a:hover {
   color: #0d6efd;
 }
 
-/* ===== HEADER ===== */
 header {
   background: #e8f3ff;
   color: #1e3a8a;
@@ -82,7 +81,7 @@ header p {
   opacity: 0.9;
 }
 
-/* ===== SECTION BASE ===== */
+
 section {
   background: #fff;
   width: 90%;
@@ -101,7 +100,6 @@ h2 {
   padding-bottom: 5px;
 }
 
-/* ===== TABLE ===== */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -119,7 +117,6 @@ th {
   color: #1e3a8a;
 }
 
-/* ===== LISTS & PROJECTS ===== */
 ul {
   list-style-type: square;
   padding-left: 25px;
@@ -138,7 +135,7 @@ ul {
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* ===== CONTACT ===== */
+
 .contact a {
   color: #0d6efd;
   text-decoration: none;
@@ -148,7 +145,7 @@ ul {
   text-decoration: underline;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
   text-align: center;
   background: #e7f0ff;
@@ -159,7 +156,7 @@ footer {
   border-top: 2px solid #bfdbfe;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 700px) {
   nav ul {
     display: none;
@@ -168,3 +165,4 @@ footer {
   header h1 { font-size: 1.6em; }
   .profile-photo { width: 100px; height: 100px; }
 }
+
